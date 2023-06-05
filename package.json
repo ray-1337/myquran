@@ -1,7 +1,16 @@
 {
   "name": "myquran",
   "description": "",
-  "keywords": ["api", "myquran", "indonesia", "kemenag", "quran"],
+  "keywords": [
+    "api",
+    "myquran",
+    "indonesia",
+    "kemenag",
+    "quran"
+  ],
   "author": "ray",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "undici": "^5.22.1"
+  }
 }
