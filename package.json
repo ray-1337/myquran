@@ -2,7 +2,8 @@
   "name": "myquran",
   "description": "A simple API wrapper for api.myquran.com",
   "scripts": {
-    "test": "clear && ava ./src/Test.ts"
+    "test": "clear && ava ./src/Test.ts",
+    "build": "rm -rf dist && tsc"
   },
   "keywords": [
     "api",
