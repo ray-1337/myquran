@@ -11,7 +11,7 @@ console.log(city.data.lokasi); // "KOTA DEPOK"
 
 ```ts
 // TypeScript
-const { getTafsirByID } = require("myquran");
+import { getTafsirByID } from "myquran";
 const tafsir = await getTafsirByID("1337");
 console.log(tafsir.data[0].text); // "Dan ada pula orang lain yang berada di sekeliling ..."
 ```
