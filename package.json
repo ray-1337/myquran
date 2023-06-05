@@ -1,6 +1,6 @@
 {
   "name": "myquran",
-  "description": "",
+  "description": "A simple API wrapper for api.myquran.com",
   "scripts": {
     "test": "clear && ava ./src/Test.ts"
   },
