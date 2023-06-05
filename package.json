@@ -2,9 +2,14 @@
   "name": "myquran",
   "description": "A simple API wrapper for api.myquran.com",
   "version": "1.0.0",
-  "files": ["dist/*.js", "src/Typings.d.ts"],
-  "main": "dist/Index.js",
-	"types": "src/Typings.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "require": "./dist/Index.js",
+      "types": "./src/Typings.d.ts",
+      "default": "./dist/Index.js"
+    }
+  },
   "scripts": {
     "test": "clear && ava ./src/Test.ts",
     "build": "rm -rf dist && tsc"
