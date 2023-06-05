@@ -1,8 +1,10 @@
 {
   "name": "myquran",
   "description": "A simple API wrapper for api.myquran.com",
-  "version": "1.0.0",
-  "files": ["dist"],
+  "version": "1.0.1-pre1",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "require": "./dist/Index.js",
