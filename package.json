@@ -2,6 +2,7 @@
   "name": "myquran",
   "description": "A simple API wrapper for api.myquran.com",
   "version": "1.0.0",
+  "files": ["dist"],
   "scripts": {
     "test": "clear && ava ./src/Test.ts",
     "build": "rm -rf dist && tsc"
