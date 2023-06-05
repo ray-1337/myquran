@@ -8,6 +8,7 @@
   "exports": {
     ".": {
       "require": "./dist/Index.js",
+      "import": "./dist/Index.js",
       "types": "./src/Typings.d.ts",
       "default": "./dist/Index.js"
     }
